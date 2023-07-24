@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/263/263142.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+            Your Shopping Cart
+        </div>
+
+        <!-- Product #1 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image-container">
+                <!-- Original image -->
+                <img src="https://www.istore.com.tn/2858-home_default/apple-macbook-air-puce-m-1-256-go-de-stockage-8-go-de-memoire.jpg"
+                    alt="Original Image" class="hover-image">
+
+                <!-- Hover image -->
+                <img src="https://www.istore.com.tn/2860-home_default/apple-macbook-air-puce-m-1-256-go-de-stockage-8-go-de-memoire.jpg"
+                    alt="Hover Image" class="hover-image hover-image-hover">
+            </div>
+
+            <div class="description">
+                <span>MacBook Air M1</span>
+                <span>8Go 256 Go</span>
+                <span>Silver</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">3 499,00 TND</div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image-container">
+                <!-- Original image -->
+                <img src="https://www.istore.com.tn/4964-home_default/iphone-14-pro-256-go-space-black.jpg"
+                    alt="Original Image" class="hover-image">
+
+                <!-- Hover image -->
+                <img src="https://www.istore.com.tn/4963-home_default/iphone-14-pro-256-go-space-black.jpg"
+                    alt="Hover Image" class="hover-image hover-image-hover">
+            </div>
+
+            <div class="description">
+                <span>iPhone 14 Pro</span>
+                <span>256Go</span>
+                <span>Space Black</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">7 549,00 TND</div>
+        </div>
+
+        <!-- Product #3 -->
+        <div class="item">
+            <div class="buttons">
+                <span class="delete-btn"></span>
+                <span class="like-btn"></span>
+            </div>
+
+            <div class="image-container">
+                <!-- Original image -->
+                <img src="https://www.istore.com.tn/3641-home_default/ipad-air-10-point-9-pouces-wifi-256-go.jpg"
+                    alt="Original Image" class="hover-image">
+
+                <!-- Hover image -->
+                <img src="https://www.istore.com.tn/3640-home_default/ipad-air-10-point-9-pouces-wifi-256-go.jpg"
+                    alt="Hover Image" class="hover-image hover-image-hover">
+            </div>
+
+            <div class="description">
+                <span>iPad Air 10.9 pouces</span>
+                <span>256 Go</span>
+                <span>Light Green</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                </button>
+                <input type="text" name="name" value="1">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="total-price">3 199,00 TND</div>
+        </div>
+    </div>
+    <div class="wholetotal-price">Total Price: <span id="cart-total">0,00 TND</span></div>
+    </div>
+</body>
+
+</html>
+
+
+
+<!-- ... MADE BY MOATAZ BEN YOUNES ... -->
